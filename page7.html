@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/js/bootstrap.min.js"
+      integrity="sha512-vyRAVI0IEm6LI/fVSv/Wq/d0KUfrg3hJq2Qz5FlfER69sf3ZHlOrsLriNm49FxnpUGmhx+TaJKwJ+ByTLKT+Yg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.1/css/bootstrap.min.css"
+      integrity="sha512-siwe/oXMhSjGCwLn+scraPOWrJxHlUgMBMZXdPe2Tnk3I0x3ESCoLz7WZ5NTH6SZrywMY+PB1cjyqJ5jAluCOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Coding</title>
+  </head>
+  <body class="bg-dark">
+    <h1 class="h3 text-center text-info border-bottom border-info">
+      Coding Practice with Engr. Abrar Hussain
+    </h1>
+    <h1 class="p-2 h4 text-light border-bottom border-light">
+      List Array and Loops
+    </h1>
+
+    <hr />
+    <p class="p-2 m-1 text-light">
+      Code 1: Write a program that creates a list of numbers from 0 to 10 using range( ) and print those out.
+      <button class="rounded" onclick="document.querySelector('#one').toggleAttribute('hidden')" >Hint</button>
+    
+      <pre id="one" hidden class="bg-light">
+        for number in <span contenteditable="true" >_________</span> :
+            print(<span contenteditable="true" >_________</span>)
+      </pre>
+    </p>
+    
+    <p class="p-2 m-1 text-light">
+      Code 2: Write a program that takes a list of words and prints out the length of each word <br>
+      words = ['apple', 'banana', 'cherry', 'date', 'elderberry']
+      <button class="rounded" onclick="document.querySelector('#two').toggleAttribute('hidden')" >Hint</button>
+      <pre id="two" hidden class="bg-light">
+            for word in <span contenteditable="true" >_________</span>:
+                print(word , '==>' , <span contenteditable="true" >_________</span>(word))
+      </pre>
+    </p>
+    <p class="p-2 m-1 text-light">
+      Code 3: Write a program that takes a list of numbers and finds the maximum number in the list. <br>
+      numbers = [23, 45, 67, 89, 12, 34, 56]
+      <button class="rounded" onclick="document.querySelector('#three').toggleAttribute('hidden')" >Hint</button>
+      
+      <pre id="three" hidden class="bg-light">
+            
+            numbers = [23, 45, 67, 89, 12, 34, 56]
+            max_num = <span contenteditable="true" >_________</span>[0]
+
+            for number in <span contenteditable="true" >_________</span>:
+                if number > max_num:
+                    max_num = <span contenteditable="true" >_________</span>
+
+            print(max_num)
+      </pre>
+    </p>
+    <p class="p-2 m-1 text-light">
+      Code 4: Write a program that takes a list of numbers and calculates the sum of all the even numbers in the list.
+      <br>
+      numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      <button class="rounded" onclick="document.querySelector('#four').toggleAttribute('hidden')" >Hint</button>
+      
+      <pre hidden id="four" class="bg-light">
+            total = 0
+            for number in numbers:
+                if <span contenteditable="true" >_________</span> % 2 == 0:
+                    total = <span contenteditable="true" >_________</span> + number
+            
+            print(total)
+          
+      </pre>
+    </p>
+    <p class="p-2 m-1 text-light">
+      Code 5: Write a program that takes a list of numbers and returns the sum of the first and last elements in the list.
+      <br>
+      numbers = [1, 2, 3, 4, 5]
+      <button class="rounded" onclick="document.querySelector('#five').toggleAttribute('hidden')" >Hint</button>
+      
+      <pre hidden id="five" class="bg-light">
+        
+            sum_first_last = numbers[0] + <span contenteditable="true" >_________</span>
+
+            print(sum_first_last)
+            
+      </pre>
+    </p>
+    
+    <div class="p-2 m-1 d-inline text-light">
+      <a href="index.html" class="btn btn-info">HOME</a>
+    </div>
+    <div class="p-2 m-1 d-inline text-light">
+      <a href="page8.html" class="btn btn-info">NEXT</a>
+    </div>
+    <div class="mb-5"></div>
+  </body>
+</html>
